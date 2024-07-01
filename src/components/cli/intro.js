@@ -1,0 +1,38 @@
+
+
+export default function CliIntro() {
+  return (
+    <div className="flex flex-wrap max-w-full">
+      <pre
+        data-prefix="tanishk@fedora$"
+        className="text-neutral-content ml-3 text-wrap w-full flex flex-wrap"
+        style={{ "text-wrap": "wrap" }}
+      >
+          <div className="text-base flex justify-center w-full text-success" >
+<p className="hidden lg:block" style={{'lineHeight':'10px'}}>
+╔═══════════════════════════════════════════════════╗<br/>
+║                                                   ║<br/>
+║                                                   ║<br/>
+║  Welcome to Tanishk&apos;s Portfolio CLI Terminal      ║<br/>
+║                                                   ║<br/>
+║  Type <i>help</i> to see a list of commands available    ║<br/>
+║                                                   ║<br/>
+║                                                   ║<br/>
+╚═══════════════════════════════════════════════════╝<br/>
+</p>
+<p className="lg:hidden" style={{'lineHeight':'15px'}}>
+╔════════════════════════════════╗<br/>
+║                                ║<br/>
+║ Welcome to Tanishk&apos;s Portfolio ║<br/>
+║ CLI Terminal                   ║<br/>
+║                                ║<br/>
+║ Type <i>help</i> to see a list        ║<br/>
+║  of commands available         ║<br/>
+║                                ║<br/>
+╚════════════════════════════════╝<br/>
+</p>
+        </div>
+      </pre>
+    </div>
+  );
+}
