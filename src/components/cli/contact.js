@@ -14,13 +14,12 @@ export default function CliContact() {
          <div className="text-base flex gap-1 mt-3">
                 <TwitterIcon className="w-7 mx-2" />
                 <div>Twitter:</div> 
-                <a href="https://twitter.com/notnotrachit" target="_blank" className="underline">
+                <a href="https://x.com/tanishk2772" target="_blank" className="underline">
                         @tanishk2772
                 </a>
          </div>
-          <div className="text-base flex gap-1 my-3"><GithubIcon className="w-7 mx-2"/><div>GitHub:</div> <a href="https://github.com/notnotrachit" target="_blank" className="underline">tanishk2705</a></div>
-          <div className="text-base flex gap-1 my-3"><LinkedInIcon className="w-7 mx-2"/><div>LinkedIn:</div> <a href="https://linkedin.com/in/rachitkhurana1" target="_blank" className="underline">tanishkgupta</a></div>
-          {/* <div className="text-base flex gap-1 mb-3"><InstagramIcon className="w-7 mx-2"/><div>Instagram:</div> <a href="https://instagram.com/notnotrachit" target="_blank" className="underline">tanishk</a></div> */}
+          <div className="text-base flex gap-1 my-3"><GithubIcon className="w-7 mx-2"/><div>GitHub:</div> <a href="https://github.com/tanishk2705" target="_blank" className="underline">tanishk2705</a></div>
+          <div className="text-base flex gap-1 my-3"><LinkedInIcon className="w-7 mx-2"/><div>LinkedIn:</div> <a href="https://www.linkedin.com/in/tanishk-gupta-48b865228/" target="_blank" className="underline">tanishkgupta</a></div>
         </div>
       </pre>
     </div>
