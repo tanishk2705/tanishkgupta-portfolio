@@ -5,6 +5,7 @@ import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import friendZonePic from '../../public/images/projects/FriendZone.png'
+import portfolioPic from '../../public/images/projects/porfolio.png'
 import encryptorPic from '../../public/images/projects/parallelEncryptor.jpg'
 import proxyServerPic from '../../public/images/projects/ProxyServer.jpg'
 import { GithubIcon } from '@/components/Icons'
@@ -66,9 +67,9 @@ const projects = () => {
                         <Project
                                 title='Portfolio Website'
                                 type='React Portfolio Website'
-                                img={friendZonePic}
-                                link='https://github.com/tanishk2705'
-                                github='https://github.com/tanishk2705' />
+                                img={portfolioPic}
+                                link='https://tanishkgupta-portfolio.vercel.app/'
+                                github='https://github.com/tanishk2705/tanishkgupta-portfolio/' />
                         </div>
 
                         <div className='col-span-6 sm:col-span-12'>
